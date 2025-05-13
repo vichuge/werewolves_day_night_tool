@@ -23,7 +23,7 @@ modeToggle.addEventListener('change', () => {
     // Modo día
     body.classList.remove('night-mode');
     body.classList.add('day-mode');
-    modeImage.src = 'assets/aldeano2.jpg';
+    modeImage.src = 'assets/aldeano1.png';
     audioPlayer.src = 'assets/day.mp3';
     pageTitle.textContent = 'Día 🌞';
   }
